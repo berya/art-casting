@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
+
 @isPublish: true;
 
 #menu1-e {
@@ -396,25 +398,6 @@ nav.opened .hamburger span {
 }
 }
 
-#slider2-j {
-}
-
-#features1-k {
-}
-
-#header2-f {
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 15px);
-  padding-bottom: (@paddingBottom * 15px);
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-}
-
 #footer1-g {
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -488,8 +471,25 @@ padding-bottom: (@paddingBottom * 15px);
 }
 }
 
-#header1-h {
+#gallery1-n {
 }
 
-#video1-i {
+#menu-o {
+.mbr-brand__name {
+  font-size: 16px;
+}
+&.mbr-navbar--stuck .mbr-navbar__section {
+  background: #000000;
+}
+.mbr-navbar__section {
+}
+.mbr-navbar__hamburger {
+  color: #ffffff;
+}
+.mbr-brand__name a {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+}
+
+#gallery2-p {
 }
